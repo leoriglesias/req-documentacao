@@ -3,13 +3,13 @@
 ## 1. Regras de Negócio Controle de Vagas
 
 - ### RNG000 
-(Depois excluimos esta mensagem. Serve apenas como modelo.)  
+Veiculo cadastrado.  
 
 - ### RNG001 
-Deve existir gráficos mostrando quantos carros há no estacionamento.
+Cliente cadastrado.
 
 - ### RNG002 
-Gráficos exibindo o número de marcas e modelos de carros.
+
 
 - ### RNG003 
 O sistema deve, a partir da Regra de Negócio 2, gerar um gráfico com porcentagens dos valores dos veículos de acordo com tabela FIPE.
@@ -47,6 +47,24 @@ Sinal Vermelho: O estacionamento está com poucas vagas. (**Notificação**)
 
 - ### MSG004:
 A meta de valor bruto definida no sistema foi atingida. (**Notificação**)
+
+- ### MSG005: 
+Registro salvo!  (**Confirmação)
+
+- ### MSG006:
+Vaga Liberada! (**Notificação)
+
+- ### MSG007:
+Vaga ocupada! (**Alerta)
+
+- ### MSG008:
+Veiculo nao encontrado! (**Alerta)
+
+- ### MSG009:
+Cliente não encontrado! (**Alerta)
+
+- ### MSG0010:
+Não há vagas! (**Erro)
 
 - ### MSG005:
 A as fileiras que estão mais vazias são... (**Notificação**)
