@@ -1,9 +1,6 @@
 # Especificações de Regras de Negócio e Mensagens do Sistema 
 
-## 1. Regras de Negócio Cadastrar Veículo
-
-- ### RNG000 
-(Depois excluimos esta mensagem. Serve apenas como modelo.)  
+## 1. Regras de Negócio Cadastrar Veículo 
 
 - ### RNG001 
 É obrigatório que seja informada a placa e o chassi do veículo.
@@ -31,10 +28,6 @@ marca, modelo e ano do veículo estão de acordo com a numeração do chassi.
 ***
 
 ## 2. Mensagens do Sistema Cadastrar Veículo
-
-- ### MSG000:
-(Depois excluimos esta mensagem. Serve apenas como modelo.)  
-Mensagem a ser apresentada ao usuário (Selecione **Confirmação, Erro, Notificação ou Alerta.**]  
 
 - ### MSG001:
 Obrigatório informar a placa e o chassi do veículo. (**Erro**)
