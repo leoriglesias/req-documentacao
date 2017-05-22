@@ -3,19 +3,19 @@
 ## 1. Regras de Negócio Controle de Vagas
 
 - ### RNG000 
-Veiculo cadastrado.  
+Obrigatório informar a placa do veiculo.  
 
 - ### RNG001 
-Cliente cadastrado.
+Obrigatório informar a CPF do cliente.  
 
 - ### RNG002 
-
+Obrigatório informar a placa do veiculo.  
 
 - ### RNG003 
-O sistema deve, a partir da Regra de Negócio 2, gerar um gráfico com porcentagens dos valores dos veículos de acordo com tabela FIPE.
+Obrigatório selecionar o tipo de vaga.  
 
 - ### RNG004 
-Deve apresentar um mapa com as vagas disponíveis organizados por fileiras de A-Z e vagas de 1-n. 
+Sistema deve listar vagas e a opção de mapa com as vagas organizados por fileiras de A-Z e vagas de 1-n. 
 Exemplo: O veículo Marca Modelo placa XXX-1234 está fileira K vaga número 3 (K-3).
 
 - ### RNG005 
@@ -49,28 +49,28 @@ Sinal Vermelho: O estacionamento está com poucas vagas. (**Notificação**)
 A meta de valor bruto definida no sistema foi atingida. (**Notificação**)
 
 - ### MSG005: 
-Registro salvo!  (**Confirmação)
+Registro salvo!  (**Confirmação**)
 
 - ### MSG006:
-Vaga Liberada! (**Notificação)
+Vaga Liberada! (**Notificação**)
 
 - ### MSG007:
-Vaga ocupada! (**Alerta)
+Vaga ocupada! (**Alerta**)
 
 - ### MSG008:
-Veiculo nao encontrado! (**Alerta)
+Veiculo nao encontrado! (**Alerta**)
 
 - ### MSG009:
-Cliente não encontrado! (**Alerta)
+Cliente não encontrado! (**Alerta**)
 
 - ### MSG0010:
-Não há vagas! (**Erro)
+Não há vagas! (**Erro**)
 
-- ### MSG005:
+- ### MSG0011:
 A as fileiras que estão mais vazias são... (**Notificação**)
 Exemplo: A as fileiras que estão mais vazias são A(12), D(7), B(4). 
 
-- ### MSG006:
+- ### MSG0012:
 Não há vagas disponíveis! (**Alerta**)
 
 
