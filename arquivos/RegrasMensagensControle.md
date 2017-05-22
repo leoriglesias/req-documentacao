@@ -28,6 +28,9 @@ Gráficos exibindo o valor bruto obtido durante o dia, semana e mês.
 - ### RNG007
 Deve exibir uma mensagem exibindo que a meta de valor bruto obtido no dia foi alcançada.
 
+- ### RNG008
+Para emitir o ticket é necessario clicar no botão enviar que salva os dados.
+
 ***
 
 ## 2. Mensagens do Sistema Controle de Vagas
