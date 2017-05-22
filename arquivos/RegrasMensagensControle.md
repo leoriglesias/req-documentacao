@@ -43,7 +43,7 @@ Caso veículo permaneça por mais de 48Hrs no estabelecimento estará sujeito a 
 O sistema deverá informar quando todas as vagas estiverem ocupadas. 
 
 - ### RNG14
-Necessário estar logado no sistema para cadastrar veículos. 
+Realizar fechamento de caixa com histórico de vagas. 
 
 - ### RNG15
 Necessário estar logado no sistema para cadastrar veículos. 
@@ -52,39 +52,43 @@ Necessário estar logado no sistema para cadastrar veículos.
 
 ## 2. Mensagens do Sistema Controle de Vagas 
 
-- ### MSG001:
+- ### MSG01:
 Sinal Verde: vaga disponível. (**Notificação**)
 
-- ### MSG002:
+- ### MSG02:
 Sinal Vermelho: Vaga ocupada. (**Notificação**)
 
-- ### MSG003:
+- ### MSG03:
 A meta de valor bruto definida no sistema foi atingida. (**Notificação**)
 
-- ### MSG004: 
+- ### MSG04: 
 Registro salvo!  (**Confirmação**)
 
-- ### MSG005:
+- ### MSG05:
 Vaga Liberada! (**Notificação**)
 
-- ### MSG006:
+- ### MSG06:
 Vaga ocupada! (**Alerta**)
 
-- ### MSG007:
+- ### MSG07:
 Veiculo nao encontrado! (**Alerta**)
 
-- ### MSG008:
+- ### MSG08:
 Cliente não encontrado! (**Alerta**)
 
-- ### MSG009:
+- ### MSG09:
 Não há vagas! (**Erro**)
 
-- ### MSG0010:
+- ### MSG10:
 A as fileiras que estão mais vazias são... (**Notificação**)
 Exemplo: A as fileiras que estão mais vazias são A(12), D(7), B(4). 
 
-- ### MSG0011:
+- ### MSG11:
 Não há vagas disponíveis! (**Alerta**)
 
+- ### MSG12:
+Veículo guinchado! (**Alerta**)
 
+- ### MSG13:
+Veículo ultrapassou tempo limite! (**Notificação**)
 
