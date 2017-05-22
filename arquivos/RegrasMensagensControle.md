@@ -9,69 +9,81 @@ Obrigatório informar a placa do veiculo.
 Obrigatório informar a CPF do cliente.  
 
 - ### RNG03 
-Obrigatório informar a placa do veiculo.  
-
-- ### RNG04 
 Obrigatório selecionar o tipo de vaga.  
 
-- ### RNG05
+- ### RNG04
 Sistema deve listar vagas e a opção de mapa com as vagas organizados por fileiras de A-Z e vagas de 1-n. 
 Exemplo: O veículo Marca Modelo placa XXX-1234 está fileira K vaga número 3 (K-3).
 
-- ### RNG06 
+- ### RNG05 
 O sistema deve possuir uma espécie de sinaleira na parte superior da vaga indicando luz verde - vaga livre - e luz vermelha - vaga ocupada.
 
+- ### RNG06
+Sistema deve manter histórico de vagas.
+
 - ### RNG07
-Gráficos exibindo o valor bruto obtido durante o dia, semana e mês.
+Deve exibir uma mensagem mostrando que a meta do dia foi obtida.
 
 - ### RNG08
-Deve exibir uma mensagem exibindo que a meta de valor bruto obtido no dia foi alcançada.
+Ao selecionar uma vaga, o sistema deverá emitir um ticket para controle de pagamento.
 
 - ### RNG09
-Para emitir o ticket é necessario clicar no botão enviar que salva os dados no banco de dados.
+Caso veículo permaneça por mais de 24Hrs no estabelecimento estará sujeito a multa. 
 
 - ### RNG10
-Caso veículo permaneça por mais de 48Hrs no estabelecimento estará sujeito a multa e guincho. 
+Necessário estar logado no sistema para cadastrar veículos. 
+
+- ### RNG11
+Informar saida do veículo. 
+
+- ### RNG12
+Caso veículo permaneça por mais de 48Hrs no estabelecimento estará sujeito a guincho. 
+
+- ### RNG13
+O sistema deverá informar quando todas as vagas estiverem ocupadas. 
+
+- ### RNG14
+Necessário estar logado no sistema para cadastrar veículos. 
+
+- ### RNG15
+Necessário estar logado no sistema para cadastrar veículos. 
 
 ***
 
 ## 2. Mensagens do Sistema Controle de Vagas 
 
 - ### MSG001:
-Sinal Verde: O estacionamento está com bastante vagas disponíveis. (**Notificação**)
+Sinal Verde: vaga disponível. (**Notificação**)
 
 - ### MSG002:
-Sinal Amarelo: O estacionamento está parcialmente lotado. (**Notificação**)
+Sinal Vermelho: Vaga ocupada. (**Notificação**)
 
 - ### MSG003:
-Sinal Vermelho: O estacionamento está com poucas vagas. (**Notificação**)
-
-- ### MSG004:
 A meta de valor bruto definida no sistema foi atingida. (**Notificação**)
 
-- ### MSG005: 
+- ### MSG004: 
 Registro salvo!  (**Confirmação**)
 
-- ### MSG006:
+- ### MSG005:
 Vaga Liberada! (**Notificação**)
 
-- ### MSG007:
+- ### MSG006:
 Vaga ocupada! (**Alerta**)
 
-- ### MSG008:
+- ### MSG007:
 Veiculo nao encontrado! (**Alerta**)
 
-- ### MSG009:
+- ### MSG008:
 Cliente não encontrado! (**Alerta**)
 
-- ### MSG0010:
+- ### MSG009:
 Não há vagas! (**Erro**)
 
-- ### MSG0011:
+- ### MSG0010:
 A as fileiras que estão mais vazias são... (**Notificação**)
 Exemplo: A as fileiras que estão mais vazias são A(12), D(7), B(4). 
 
-- ### MSG0012:
+- ### MSG0011:
 Não há vagas disponíveis! (**Alerta**)
 
 
