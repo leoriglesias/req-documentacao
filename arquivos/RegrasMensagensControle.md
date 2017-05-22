@@ -46,7 +46,7 @@ O sistema deverá informar quando todas as vagas estiverem ocupadas.
 Realizar fechamento de caixa com histórico de vagas. 
 
 - ### RNG15
-Necessário estar logado no sistema para cadastrar veículos. 
+Será gerada cobrança a partir de 15 min de permanecia no estacimento. 
 
 ***
 
