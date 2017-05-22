@@ -19,8 +19,7 @@ Sistema deve listar vagas e a opção de mapa com as vagas organizados por filei
 Exemplo: O veículo Marca Modelo placa XXX-1234 está fileira K vaga número 3 (K-3).
 
 - ### RNG005 
-O sistema deve possuir uma espécie de sinaleira na parte superior indicando: luz verde (de 70% a 100% de vagas disponíveis),
-luz amarela (de 30% a 69% de vagas disponíveis), luz vermelha (29% a 1% de vagas disponíveis).
+O sistema deve possuir uma espécie de sinaleira na parte superior da vaga indicando luz verde - vaga livre - e luz vermelha - vaga ocupada.
 
 - ### RNG006 
 Gráficos exibindo o valor bruto obtido durante o dia, semana e mês.
@@ -29,7 +28,10 @@ Gráficos exibindo o valor bruto obtido durante o dia, semana e mês.
 Deve exibir uma mensagem exibindo que a meta de valor bruto obtido no dia foi alcançada.
 
 - ### RNG008
-Para emitir o ticket é necessario clicar no botão enviar que salva os dados.
+Para emitir o ticket é necessario clicar no botão enviar que salva os dados no banco de dados.
+
+- ### RNG009
+Caso veículo permaneça por mais de 48Hrs no estabelecimento estará sujeito a multa e guincho. 
 
 ***
 
